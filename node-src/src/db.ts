@@ -6,7 +6,7 @@ export interface Document extends MongooseDocument {
 }
 
 /**
- * In this example we are connecting to a local MongoDB instance. This instance is running via docker-compose in our GitHub Codespaces environment.
+ * In this example we are connecting to a local MongoDB instance. This instance is running via docker-compose in our GitHub Code spaces environment.
  * In a real-world application, you would want to use a cloud-based MongoDB service like MongoDB Atlas.
  */
 mongoose.connect(
